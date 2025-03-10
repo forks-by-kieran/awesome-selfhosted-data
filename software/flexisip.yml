@@ -1,6 +1,6 @@
 name: Flexisip
-website_url: http://flexisip.org/
-description: A complete, modular and scalable SIP server, includes a push gateway, to deliver SIP incoming calls or text messages on mobile device platforms where push notifications are required to receive information when the app is not active in the foreground.
+website_url: https://github.com/nirix
+description: Complete, modular and scalable SIP server, includes a push gateway, to deliver SIP incoming calls or text messages on mobile device platforms where push notifications are required to receive information when the app is not active in the foreground.
 licenses:
   - AGPL-3.0
 platforms:
