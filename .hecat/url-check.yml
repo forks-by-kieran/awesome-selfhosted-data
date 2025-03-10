@@ -10,16 +10,12 @@ steps:
       errors_are_fatal: True
       exclude_regex:
         - '^https://github.com/[\w\.\-]+/[\w\.\-]+$' # don't check URLs that will be processed by the github_metadata module
-        - '^https://retrospring.net/$' # DDoS protection page, always returns 403
         - '^https://www.taiga.io/$' # always returns 403 Request forbidden by administrative rules
-        - '^https://docs.paperless-ngx.com/$' # DDoS protection page, always returns 403
         - '^https://demo.paperless-ngx.com/$' # DDoS protection page, always returns 403
-        - '^https://git.dotclear.org/dev/dotclear$' # DDoS protection page, always returns 403
-        - '^https://word-mastermind.glitch.me/$' # the demo instance takes a long time to spin up, times out with the default 10s timeout
         - '^https://getgrist.com/$' # hecat/python-requests bug? 'Received response with content-encoding: gzip,br, but failed to decode it.'
         - '^https://www.uvdesk.com/$' # DDoS protection page, always returns 403
         - '^https://demo.uvdesk.com/$' # DDoS protection page, always returns 403
-        - '^https://notes.orga.cat/$' # DDoS protection page, always returns 403
+        - '^https://notes.orga.cat/$' # DDoS protection page, always returns 403 
         - '^https://cytu.be$' # DDoS protection page, always returns 403
         - '^https://demo.reservo.co/$' # hecat/python-requests bug? always returns 404 but the website works in a browser
         - '^https://crates.io/crates/vigil-server$' # hecat/python-requests bug? always returns 404 but the website works in a browser
@@ -44,6 +40,7 @@ steps:
         - '^https://dockstarter.com/' # Always returns 403 but loads in browser
         - '^https://dpaste.org/' # Always returns 403 but loads in browser
         - '^https://www.drupal.org/' # Always returns 403 but loads in browser
+        - '^https://hedgedoc.org/' # Always returns 403 but loads in browser
         - '^https://demo.hedgedoc.org/' # Always returns 403 but loads in browser
         - '^https://www.redcort.com/timeclock' # Always returns 403 but loads in browser
         - '^https://www.redcort.com/timeclock/free-timeclock-software-trial' # Always returns 403 but loads in browser
@@ -60,3 +57,5 @@ steps:
         - '^https://www.qbittorrent.org/' # Always returns 403 but loads in browser
         - '^https://www.xwiki.org' # Always returns 403 but loads in browser
         - '^https://app.invoiceninja.com/invoices/create' # Always returns 403 but loads in browser
+        - '^https://gauzy.co' # Always returns 500 but loads in browser
+        - '^https://demo.gauzy.co/' # Always returns 403 but loads in browser
