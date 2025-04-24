@@ -1,0 +1,14 @@
+name: Firezone
+website_url: https://docs.fittrackee.org/en/index.html
+description: Track your outdoor activities (workouts) from gpx files and keep your data on your own server.
+licenses:
+  - AGPL-3.0
+platforms:
+  - Docker
+  - deb
+  - Python
+tags:
+  - Miscellaneous
+depends_3rdparty: true
+source_code_url: https://github.com/SamR1/FitTrackee
+related_software: https://docs.fittrackee.org/en/third_party_tools.html
