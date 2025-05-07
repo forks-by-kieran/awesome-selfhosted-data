@@ -4,7 +4,7 @@ description: CLI for executing queries on a remote Valve Source dedicated server
 licenses:
   - MIT
 platforms:
-  - Go
+  - Docker
 tags:
   - Games - Administrative Utilities & Control Panels
 source_code_url: https://github.com/gorcon/rcon-cli
