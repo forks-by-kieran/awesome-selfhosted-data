@@ -1,5 +1,5 @@
 name: HyperKitty
-website_url: https://wiki.list.org/HyperKitty
+website_url: https://docs.mailman3.org/projects/hyperkitty/en/latest/
 description: Access GNU Mailman v3 archives.
 licenses:
   - GPL-3.0
